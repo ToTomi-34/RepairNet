@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --deep-navy: #0f172a;
+  --bg: #f8fafc;
+  --border: #e2e8f0;
+  --primary-teal: #14b8a6;
+  --warning-amber: #f59e0b;
+  --sucess-green: #22c55e;
+  --error-red: #ef4444;
+}

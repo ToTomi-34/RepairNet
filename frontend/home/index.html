@@ -19,33 +19,10 @@
           <div id="logoArea">
             <img src="../imgs/logo.png" alt="Logo RepairNet" id="logoRepairNet"/>
           </div>
-          <div id="searchArea">
-            <input type="search" name="search" id="search" placeholder="Pesquise aqui..."/>
-            <button id="submit" class="buttons">
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                width="25px"
-                height="25px"
-              >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g
-                  id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></g>
-                <g id="SVGRepo_iconCarrier">
-                  <path
-                    d="M15.7955 15.8111L21 21M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z"
-                    stroke="#006B5F"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  ></path>
-                </g>
-              </svg>
-            </button>
+          <div id="mainBttnsNavBar">
+            <p><a href="">Início</a></p>
+            <p><a href="">Pesquisar</a></p>
+            <p><a href="">Desbrave</a></p>
           </div>
           <div id="userAvatarArea">
             <img id="userAvatar" height="40px" width="40px">
@@ -53,7 +30,23 @@
         </div>
       </nav>
     </header>
-    <main></main>
+    <main>
+        <section id="inicio">
+            <div id="titleBox">
+                <h1 id="homeTitle"></h1>
+                <p>Conecte-se com pessoas da sua vizinhança prontas para ajudar ou compartilhe o que você sabe fazer.</p>
+                <div id="searchBox">
+                <input type="search" name="searchBar" id="searchBar" placeholder="Buscar por habilidade, conserto ou vizinho (ex: troca de tela, freio de bicicleta, fiação)...">
+                <button id="searchSubmit"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="25px" height="25px"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15.7955 15.8111L21 21M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z" stroke="#006B5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+                </div>
+            </div>
+        </section>
+        <section id="sides"></section>
+        <section id="pedidos"></section>
+        <section id="recomendations"></section>
+        <section id="categorys"></section>
+    </main>
     <footer></footer>
+    <script src="script.js"></script>
   </body>
 </html>

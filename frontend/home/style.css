@@ -40,7 +40,12 @@ body {
   width: auto;
   cursor: pointer;
 }
-#searchArea {
+#mainBttnsNavBar a{
+    text-decoration: none;
+    color: #0f172a;
+    font-weight: bold;
+}
+#mainBttnsNavBar {
   display: flex;
   align-items: center;
   gap: 15px;
@@ -49,17 +54,41 @@ body {
     border: solid var(--border) 1px;
     border-radius: 50%;
 }
-#searchArea input {
+#searchBox {
+    display: flex;
+    gap: 15px;
+}
+#searchBar {
     height: 45px;
-    width: 350px;
+    width: 600px;
     background-color: var(--bg);
     border: solid #aeb3b8 2px;
     border-radius: 22.5px;
     padding: 13px;
 }
-#searchArea button {
+#searchSubmit {
     height: 45px;
     width: 45px;
     border: solid #aeb3b8 2px;
     border-radius: 50%;
+    cursor: pointer;
+}
+section {
+    padding: 0 15%;
+}
+#inicio {
+    padding: 20px 16%;
+}
+#titleBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    height: 350px;
+    border: solid var(--border) 2px;
+    border-radius: 35px;
+    padding: 25px 35px;
+}
+#titleBox h1 {
+    width: 55%;
 }

@@ -12,3 +12,54 @@
   --sucess-green: #22c55e;
   --error-red: #ef4444;
 }
+body {
+  background-color: var(--bg);
+  color: #0f0f0f;
+  font-family: "Inter", sans-serif;
+  padding: 85px 0 0 0;
+  overflow-x: hidden;
+}
+.buttons {
+  border: none;
+  cursor: pointer;
+}
+#containerNavbar {
+  width: 100vw;
+  height: 85px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  background-color: #ffffff;
+  border-bottom: solid var(--border) 2px;
+}
+#logoRepairNet {
+  height: 79px;
+  width: auto;
+  cursor: pointer;
+}
+#searchArea {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+#userAvatar {
+    border: solid var(--border) 1px;
+    border-radius: 50%;
+}
+#searchArea input {
+    height: 45px;
+    width: 350px;
+    background-color: var(--bg);
+    border: solid #aeb3b8 2px;
+    border-radius: 22.5px;
+    padding: 13px;
+}
+#searchArea button {
+    height: 45px;
+    width: 45px;
+    border: solid #aeb3b8 2px;
+    border-radius: 50%;
+}

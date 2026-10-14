@@ -92,3 +92,40 @@ section {
 #titleBox h1 {
     width: 55%;
 }
+#sides {
+    display: flex;
+    gap: 30px;
+}
+.cardsSides {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    height: 300px;
+    border: solid var(--border) 2px;
+    border-radius: 25px;
+    padding: 25px;
+}
+.iconCardSides {
+    background-color: #6ce9da;
+    border-radius: 8px;
+    padding: 5px;
+}
+.cardsSides p {
+    width: 70%;
+}
+.cardsSides button {
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 250px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 0 10px;
+    font-weight: bolder;
+    font-size: 1.005rem;
+}
+#helpedButton {
+    color: #006B5F;
+}

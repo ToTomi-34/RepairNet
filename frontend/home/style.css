@@ -142,3 +142,18 @@ section {
     min-height: 90px;
     max-height: 270px;
 }
+#recomendationsFilter {
+    color: #006B5F;
+}
+#categorysBox {
+    display: flex;
+    gap: 20px;
+}
+.cardsCategory {
+    background-color: #FFF;
+    border: solid var(--border) 3px;
+    height: 110px;
+    width: 170px;
+    border-radius: 11px;
+    cursor: pointer;
+}

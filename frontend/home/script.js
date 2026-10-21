@@ -8,3 +8,14 @@ function nameUserInTitle() {
 }
 
 nameUserInTitle()
+
+let local = "Recife"
+
+function localRecomendations() {
+
+    let title = document.getElementById("recomendationsHeaderText");
+
+    title.innerText=`Baseado nas suas habilidades e solicitações recentes em ${local}`
+}
+
+localRecomendations()

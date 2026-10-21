@@ -144,6 +144,19 @@ section {
 }
 #recomendationsFilter {
     color: #006B5F;
+    background-color: #FFF;
+    width: 200px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 9px;
+    border: solid var(--border) 2px;
+}
+#headerRecomendations {
+    display: flex;
+    justify-content: space-between;
 }
 #categorysBox {
     display: flex;
